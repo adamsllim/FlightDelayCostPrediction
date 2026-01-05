@@ -30,7 +30,8 @@ The goal of the project is to support airline reliability analysis and route ris
 - Visualized carrier‑specific reliability patterns
 
 3. Modeling
-- Delay Severity Prediction (Classification)
+
+**Delay Severity Prediction (Classification)**
 - Models implemented:
 - Support Vector Machine (SVM) with RBF kernel
 - Multilayer Perceptron (MLP) classifier with dropout + early stopping
@@ -46,7 +47,7 @@ Key notes:
 - SVM handled class imbalance using class weights
 - MLP used dropout layers to reduce overfitting
 
-Cost‑Per‑Mile Prediction (Regression)
+**Cost‑Per‑Mile Prediction (Regression)**
 - Models implemented:
 - MLPRegressor (scikit‑learn)
 - Custom Keras MLP with dropout and Adam optimizer
